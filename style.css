@@ -262,10 +262,16 @@ body {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  color: #000;
 }
 
 .foot p {
   cursor: default; /* Используется для указания, что текст не является ссылкой и не реагирует на клики */
   text-decoration: none; /* Отключает подчеркивание текста */
+  color: #000;
+}
+
+.foot p a,
+.foot p b a {
+  text-decoration: none !important; /* !important используется для усиления приоритета стиля */
+  color: inherit !important;
 }
