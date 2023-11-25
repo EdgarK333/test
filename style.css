@@ -270,6 +270,12 @@ body {
   color: #000;
 }
 
+.foot .phone-number {
+  cursor: pointer;
+  color: #2e2c2c;
+  text-decoration: none;
+}
+
 .foot p a,
 .foot p b a {
   text-decoration: none !important; /* !important используется для усиления приоритета стиля */
