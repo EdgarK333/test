@@ -264,3 +264,8 @@ body {
   text-decoration: none;
   color: #000;
 }
+
+.foot p {
+  cursor: default; /* Используется для указания, что текст не является ссылкой и не реагирует на клики */
+  text-decoration: none; /* Отключает подчеркивание текста */
+}
