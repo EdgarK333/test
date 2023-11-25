@@ -264,9 +264,9 @@ body {
   text-decoration: none;
 }
 
-.foot p {
-  cursor: default; /* Используется для указания, что текст не является ссылкой и не реагирует на клики */
-  text-decoration: none; /* Отключает подчеркивание текста */
+.foot p:not(.phone-number) {
+  cursor: default;
+  text-decoration: none;
   color: #000;
 }
 
